@@ -1,24 +1,5 @@
-# README
+# KIT UI 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Kit IU d'une app a destination d'une marketplace où les gens pourraient proposer des cours de cuisine (le airbnb de la cuisine)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://food-kit-ui.herokuapp.com/
