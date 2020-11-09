@@ -13,3 +13,177 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+  background-color: #F9F9F9;
+}
+
+.example-title {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+.infos {
+  text-transform: uppercase;
+}
+
+/* Colors kit */
+.color {
+  border: none;
+  border-radius: 10px 10px 0px 0px;
+  width: 120px;
+  height: 40px;
+}
+
+.clearfix {
+  display: flex;
+}
+
+.primary {
+  background-color: #767C77;
+}
+.text-primary {
+  color: #767C77;
+}
+.secondary {
+  background-color: #FABEA7;
+}
+.text-secondary {
+  color: #FABEA7;
+}
+.grey-light {
+  background-color: #E8E8E8;
+}
+.text-grey-light {
+  color: #E8E8E8;
+}
+.grey-medium {
+  background-color: #A6A6A4;
+}
+.text-grey-medium {
+  color: #A6A6A4;
+}
+.grey-dark {
+  background-color: #625261;
+}
+.text-grey-dark {
+  color: #625261;
+}
+
+
+/* Colors buttons & alerts */
+.warning {
+  background-color:#F6C98E;
+}
+.success {
+  background-color:#69D1A6;
+}
+.info {
+  background-color:#6EC3D1;
+}
+.danger {
+  background-color:#E78F8E;
+}
+
+/* Header */
+.headings {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+/* Texte */
+.text {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+}
+/* Buttons normal */
+.btn {
+  border: none;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.btn:hover {
+  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons small*/
+.btn-sm {
+  width: 100px;
+  font-style: italic;
+}
+
+/* Buttons large*/
+.btn-lg {
+  width: 300px;
+}
+
+/* Outlines buttons */
+.btn-outline-primary {
+  border: solid 1px #767C77;
+  color: #767C77;
+  background-color: white;
+}
+.btn-outline-secondary {
+  border: solid 1px #FABEA7;
+  color: #FABEA7;
+  background-color: white;
+}
+.btn-outline-warning {
+  border: solid 1px #F6C98E;
+  color: #F6C98E;
+  background-color: white;
+}
+.btn-outline-danger {
+  border: solid 1px #E78F8E;
+  color: #E78F8E;
+  background-color: white;
+}
+.btn-outline-success {
+    border: solid 1px #69D1A6;
+    color: #69D1A6;
+    background-color: white;
+  }
+.btn-outline-info {
+  border: solid 1px #6EC3D1;
+  color: #6EC3D1;
+  background-color: white;
+}
+.btn-outline-grey-light {
+  border: solid 1px #E8E8E8;
+  color: #E8E8E8;
+  background-color: white;
+}
+.btn-outline-grey-medium {
+  border: solid 1px #A6A6A4;
+  color: #A6A6A4;
+  background-color: white;
+}
+.btn-outline-grey-dark {
+  border: solid 1px #625261;
+  color: #625261;
+  background-color: white;
+}
+
+/* Alertss */
+.alerts {
+  border: none;
+  color: #625261;
+  letter-spacing: 0.05em;
+  border-radius: 5px;
+  padding: 10px;
+  width: 500px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
