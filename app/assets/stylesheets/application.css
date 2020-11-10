@@ -70,7 +70,6 @@
   color: #625261;
 }
 
-
 /* Colors buttons & alerts */
 .warning {
   background-color:#F6C98E;
@@ -94,6 +93,41 @@
 /* Texte */
 .text {
   font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* les <blockquote>, pour les citations*/
+.blockquote-wrapper {
+  display: flex;
+  padding: 0 20px;
+}
+
+.blockquote {
+  position: relative;
+  color:#FABEA7;
+  max-width: 500px;
+  align-self: center;
+  border-top: solid 1.5px;
+  border-bottom: solid 1.5px;
+}
+
+/* Blockquote header */
+.blockquote h1 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 0.25rem;
+  font-size: medium;
+}
+
+/* Blockquote subheader */
+.blockquote h4 {
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  position: relative;
+  color: #A2A2A4;
+  margin: 0;
+  padding-top: 0.25rem;
+  font-style: italic;
 }
 
 /* Buttons */
